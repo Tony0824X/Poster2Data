@@ -28,16 +28,6 @@
 2. 解壓縮後雙擊 `Poster2Data` 執行
 3. 瀏覽器會自動開啟
 
-### 方法 2：從源碼運行（開發者）
-
-```bash
-# 安裝依賴
-pip install -r requirements.txt
-
-# 運行應用
-streamlit run app.py
-```
-
 ## API Key 設定
 
 應用程式需要設定 API Key 才能使用：
