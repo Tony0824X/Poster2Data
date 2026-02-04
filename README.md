@@ -48,29 +48,6 @@ streamlit run app.py
 2. **DeepSeek API Key**（備用，用於 OCR 模式）
    - 註冊：https://platform.deepseek.com/api_keys
 
-## 打包獨立執行檔
-
-```bash
-# 安裝 PyInstaller
-pip install pyinstaller
-
-# 打包
-pyinstaller --onefile --name Poster2Data \
-  --add-data "app.py:." \
-  --collect-all streamlit \
-  --hidden-import streamlit \
-  --hidden-import streamlit.web.cli \
-  --hidden-import pandas \
-  --hidden-import numpy \
-  --hidden-import PIL \
-  --hidden-import PIL.Image \
-  --hidden-import openai \
-  --hidden-import pdfplumber \
-  --hidden-import fitz \
-  --hidden-import altair \
-  main.py
-```
-
 ## 技術架構
 
 - **前端**：Streamlit
