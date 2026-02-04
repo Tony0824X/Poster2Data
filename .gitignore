@@ -10,7 +10,9 @@ venv/
 
 # PyInstaller
 build/
-dist/
+dist/*
+!dist/Poster2Data_Final/
+!dist/Poster2Data_Final.zip
 *.spec
 
 # IDE

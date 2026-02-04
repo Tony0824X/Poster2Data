@@ -1,0 +1,2 @@
+dist/Poster2Data_Final/* filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
